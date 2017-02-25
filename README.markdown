@@ -1,7 +1,8 @@
 jellybeans.vim
 ==============
 
-A colorful, dark color scheme, inspired by [ir_black][] and [twilight][].
+Forked version of jellybeans color scheme for vim, a colorful, dark color
+scheme, inspired by [ir_black][] and [twilight][].
 
 Designed primarily for a graphical Vim, but includes support for 256, 88, 16,
 and 8 color terminals. On a 16 or 8 color terminal, replace its colors with
@@ -9,7 +10,8 @@ those in `ansi-term-colors.txt` for best results.
 
 This script is [vimscript #2555][vimscript] at Vim.org.
 
-Scroll down for [screenshots][ss-anchor]!
+I have removed screen shots because my modifications won't keep up with the
+original. Easier to just not have them.
 
 ## Options
 
@@ -95,10 +97,7 @@ Users of Apple’s pre-10.7 Terminal.app can use the TerminalColours
 plugin ([Leopard][tc-leopard], [Snow Leopard][tc-snowleopard]) to
 change the default colors.
 
-## Screenshots
-
-![][preview-ss]
-
+## Links
 
 [ir_black]: https://web.archive.org/web/20140211124943/http://toddwerth.com/2008/01/25/a-black-os-x-leopard-terminal-theme-that-is-actually-readable/
 [twilight]: http://www.vim.org/scripts/script.php?script_id=1677
@@ -106,4 +105,3 @@ change the default colors.
 [tc-leopard]: http://ciaranwal.sh/2007/11/01/customising-colours-in-leopard-terminal
 [tc-snowleopard]: https://github.com/timmfin/terminalcolours
 [preview-ss]: https://nanotech.nanotechcorp.net/downloads/jellybeans-preview.png
-[ss-anchor]: #screenshots
