@@ -379,7 +379,7 @@ set background=dark
 if version >= 700
   call s:X("CursorLine","","1c1c1c","","",s:termBlack)
   call s:X("CursorColumn","","1c1c1c","","",s:termBlack)
-  call s:X("MatchParen","ffffff","556779","bold","","DarkCyan")
+  call s:X("MatchParen","556779","","underline,bold","DarkCyan","")
 
   call s:X("TabLine","000000","b0b8c0","italic","",s:termBlack)
   call s:X("TabLineFill","9098a0","","","",s:termBlack)
@@ -423,7 +423,7 @@ call s:X("Function","fad07a","","","Yellow","")
 call s:X("Statement","8197bf","","","DarkBlue","")
 call s:X("PreProc","8fbfdc","","","LightBlue","")
 
-hi! link Operator Structure
+call s:X("Operator","cf6a4c","303030","","Red","")
 hi! link Conceal Operator
 
 call s:X("Type","ffb964","","","Yellow","")
@@ -475,7 +475,7 @@ hi! link phpVarSelector Identifier
 
 " Python
 
-hi! link pythonOperator Statement
+hi! link pythonOperator Operator
 
 " Ruby
 
